@@ -1,0 +1,17 @@
+.{
+    .name = .graphqlz,
+    .fingerprint = 0x2cb8eafb80961342,
+    .version = "0.0.1",
+    .dependencies = .{
+        .parser_toolkit = .{
+            .url = "git+https://github.com/ikskuh/parser-toolkit#62e0a3dca3632bb361df59407b2d7805280ab1b9",
+            .hash = "parser_toolkit-0.1.0-baYGPUVCEwBaVmu09ORh0lLlVjRaJ489TdSIdTa_8VWg",
+        },
+        .requezt = .{
+            .url = "git+https://github.com/carlos-gn/requezt#ac3339b501f958f7350aec859d698fb4fd5756b2",
+            .hash = "requezt-0.1.0-BDif79RPAABdWnITDNjq4Pco5TrQOG7KtICEDItZX4KZ",
+        },
+    },
+    .minimum_zig_version = "0.15.2",
+    .paths = .{""},
+}
